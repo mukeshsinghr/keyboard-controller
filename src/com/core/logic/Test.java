@@ -1,4 +1,4 @@
-package com.core.logic;
+﻿package com.core.logic;
 
 import java.io.Console;
 import java.util.HashMap;
@@ -20,7 +20,7 @@ public class Test {
 		HashMap<Integer, Integer> translaterEngine = TranslaterEngine.getTranslaterEngine();
 		System.out.println("Hindi converted char is :"+Character.toString((char)(int)translaterEngine.get(unicodeOfChar)));
 		
-//		scanner.next
+
 		
 //		 Console console = System.console();
 //		    if (console == null) {
