@@ -8,6 +8,7 @@ public class ConverterLib {
 	public static char readSingleChar() throws IOException {
 //		System.out.println("Enter any alphabate:");
 //		char inputChar = (char) System.in.read();
+// Testing the commit online.
 		DataInputStream in=new DataInputStream(System.in);
 		System.out.println("Ente any character");
 		byte b = in.readByte();
